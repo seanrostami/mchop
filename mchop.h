@@ -16,11 +16,6 @@
 */
 
 
-#ifdef __cplusplus
-extern "C" {
-#endif
-
-
 #include <math.h>
 /* Although <tgmath.h> offers type-generic frexp & ldexp, there is no type-generic modf (why not?) and I prefer to be explicit anyway. So, I use X, Xf, Xl for X=frexp, ldexp, modf as needed. */
 
@@ -98,11 +93,6 @@ long double mchopl( long double x, int p ){
 
 
 /*******************************************************************************************/
-
-
-#ifdef __cplusplus
-}
-#endif
 	
 
 #endif /* SJR_MCHOP */
